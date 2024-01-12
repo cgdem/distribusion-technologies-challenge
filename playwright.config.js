@@ -32,6 +32,7 @@ module.exports = defineConfig({
   },
   username: process.env.GITHUB_USERNAME || 'default-username',
   accessToken: process.env.GITHUB_ACCESS_TOKEN || 'default-access-token',
+  gistId: process.env.GIST_ID || 'gist-id ',
 
   /* Configure projects for major browsers */
   projects: [
